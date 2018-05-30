@@ -3,7 +3,7 @@ RED='\033[0;31m'
 YEL='\033[0;33m'
 GRE='\033[0;37m'
 NC='\033[0m'
-sqljelszo=kalifornia
+sqljelszo=vleskom
 IPCIM=$(ip address show | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | cut -f1  -d'/')
 if ! [ $(id -u) = 0 ]; then
     echo "${RED}root jog szükséges ${GRE}(sudo sh setup.sh)"
