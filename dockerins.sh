@@ -1,5 +1,5 @@
 #!/bin/bash
-username='ubuntu'
+username='vleskom'
 sudo apt-get update
 sudo apt-get install nano git apt-transport-https -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
